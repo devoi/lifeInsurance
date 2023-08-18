@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace lifeInsurance
 {
-    public partial class admin : System.Web.UI.Page
+    public partial class Site1 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            Label3.Text = "Welcome " + Session["username"];
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
         {
 
         }
