@@ -19,7 +19,7 @@
             <br />
             <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
 &nbsp; &nbsp;
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Password required" ForeColor="#CC0000" ControlToValidate="TextBox2" ValidationGroup="login"></asp:RequiredFieldValidator>
             <br />
             <br />
