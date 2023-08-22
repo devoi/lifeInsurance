@@ -11,7 +11,7 @@ namespace lifeInsurance
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label3.Text = "Welcome " + Session["username"];
+            Label1.Text = "Welcome " + Session["username"];
         }
 
         protected void Button1_Click(object sender, EventArgs e)

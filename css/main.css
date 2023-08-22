@@ -1,0 +1,16 @@
+﻿body {
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.wrapper {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+.content {
+    background-color: #ffffffa6;
+    padding:2rem;
+    border-radius:10%
+}

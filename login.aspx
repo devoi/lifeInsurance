@@ -4,11 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Login | Life Inssurance</title>
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div align="center">
+        <main>
             <br />
             <asp:Label ID="Label1" runat="server" Text="User ID"></asp:Label>
 &nbsp;&nbsp;&nbsp;
@@ -22,13 +23,13 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Password required" ForeColor="#CC0000" ControlToValidate="TextBox2" ValidationGroup="login"></asp:RequiredFieldValidator>
             <br />
             <br />
-            <asp:Label ID="Label3" runat="server"></asp:Label>
+            <asp:Label ID="Label3" runat="server" ForeColor="#CC0000"></asp:Label>
             <br />
             <br />
             <asp:Button ID="Button1" runat="server" Text="Login" BackColor="#009933" OnClick="Button1_Click" ValidationGroup="login" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button2" runat="server" Text="Clear" BackColor="#CC0000" OnClick="Button2_Click" />
-        </div>
+        </main>
     </form>
 </body>
 </html>

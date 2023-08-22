@@ -21,11 +21,11 @@ namespace lifeInsurance
         {
             Session["username"] = TextBox1.Text;
             sql_ad obj = new sql_ad();
-            DataSet ds = obj.GetData("select role from tbluser where UserId='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'");
-            int i = ds.Tables[0].Rows.Count;
-            string role = ds.Tables[0].Rows[0][0].ToString();
+            DataSet ds = obj.GetData("select role from tblsuperadmin where UserId='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'");
+            int i = ds.Tables[0].Rows.Count;            
             if (i == 1)
             {
+                string role = ds.Tables[0].Rows[0][0].ToString();
                 if (role == "admin")
                     Response.Redirect("admin.aspx");
                 else if (role == "customer")

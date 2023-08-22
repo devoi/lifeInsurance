@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="admin.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="css\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
