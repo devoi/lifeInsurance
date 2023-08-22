@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44373</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -70,6 +70,7 @@
     <Content Include="admin.aspx" />
     <Content Include="img\banner.jpg" />
     <Content Include="img\bg.jpg" />
+    <Content Include="article_management.aspx" />
     <Content Include="login.aspx" />
     <Content Include="css\main.css" />
     <Content Include="Web.config" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="admin.aspx.designer.cs">
       <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article_management.aspx.cs">
+      <DependentUpon>article_management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article_management.aspx.designer.cs">
+      <DependentUpon>article_management.aspx</DependentUpon>
     </Compile>
     <Compile Include="datalogic.cs" />
     <Compile Include="login.aspx.cs">

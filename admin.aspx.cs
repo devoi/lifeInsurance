@@ -34,5 +34,10 @@ namespace lifeInsurance
             if (i == 1)
                 Label2.Text = "Password Changed Sucessfully";
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("article_management.aspx");
+        }
     }
 }
