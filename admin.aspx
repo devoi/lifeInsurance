@@ -22,7 +22,7 @@
                     <h3>Article Management</h3>
                     <br />
                     <br />
-                    <asp:Button ID="Button2" runat="server" Text="Click Me!" BackColor="#33CCCC" />
+                    <asp:Button ID="Button2" runat="server" Text="Click Me!" BackColor="#33CCCC" OnClick="Button2_Click" />
                 </div>
                 <div class="content">
                     <h3>Change Password</h3>
