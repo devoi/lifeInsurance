@@ -69,10 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin.aspx" />
-    <Content Include="BackgroundImage.png" />
-    <Content Include="Banner.png" />
     <Content Include="Homepage.aspx" />
-    <Content Include="HomepageBackground.jpg" />
     <Content Include="img\articleimg.png" />
     <Content Include="img\banner.jpg" />
     <Content Include="img\bg.jpg" />
