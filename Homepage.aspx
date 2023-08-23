@@ -9,8 +9,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
+        
         <div style="text-align: left">
+    
             <br />
             <br />
             <br />
@@ -22,9 +23,10 @@
             <br />
             <br />
             <br />
+             <iframe src="navbar.html" style="height: 64px; width: 1576px; margin-left: 0px;"  ></iframe>
+             
             <br />
-            <br />
-            <br />
+             
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
             <br />
             <br />

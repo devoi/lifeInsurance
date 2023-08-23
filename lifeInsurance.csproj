@@ -79,6 +79,7 @@
     <Content Include="img\loginimg.png" />
     <Content Include="login.aspx" />
     <Content Include="css\main.css" />
+    <Content Include="navbar.html" />
     <Content Include="PolicyDetails.aspx" />
     <Content Include="PersonalDetails.aspx" />
     <Content Include="Web.config" />
