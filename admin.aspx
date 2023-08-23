@@ -16,7 +16,7 @@
                     <h3>Manage Insured Person Details</h3>
                     <br />
                     <br />
-                    <asp:Button ID="Button1" runat="server" Text="Manage" BackColor="#33CCCC" />
+                    <asp:Button ID="Button1" runat="server" Text="Manage" BackColor="#33CCCC" OnClick="Button1_Click" />
                 </div>
                 <div class="content">
                     <h3>Article Management</h3>

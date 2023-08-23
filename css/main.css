@@ -1,6 +1,11 @@
 ﻿body {
     text-align: center;
-    background-color: lightcoral;
+    background-image: url("/img/homebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 1600px;
+
 }
 
 .wrapper {
@@ -16,14 +21,10 @@
 }
 
 .bt_submit {
+    border: 0px None #009933;
     color: White;
     background-color: #009933;
-    border-color: #009933;
-    border-width: 0px;
-    border-style: None;
     font-weight: bold;
-    height: 24px;
-    width: 58px;
     border-radius: 8px;
     text-align: center;
 }
