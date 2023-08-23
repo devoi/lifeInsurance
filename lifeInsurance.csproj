@@ -73,6 +73,8 @@
     <Content Include="article_management.aspx" />
     <Content Include="login.aspx" />
     <Content Include="css\main.css" />
+    <Content Include="PolicyDetails.aspx" />
+    <Content Include="PersonalDetails.aspx" />
     <Content Include="Web.config" />
     <Content Include="manageInsured.aspx" />
     <Content Include="management.aspx" />
@@ -99,6 +101,20 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PolicyDetails.aspx.cs">
+      <DependentUpon>PolicyDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PolicyDetails.aspx.designer.cs">
+      <DependentUpon>PolicyDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalDetails.aspx.cs">
+      <DependentUpon>PersonalDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonalDetails.aspx.designer.cs">
+      <DependentUpon>PersonalDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">

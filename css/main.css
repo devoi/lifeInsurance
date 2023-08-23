@@ -14,3 +14,27 @@
     padding:2rem;
     border-radius:10%
 }
+
+.bt_submit {
+    color: White;
+    background-color: #009933;
+    border-color: #009933;
+    border-width: 0px;
+    border-style: None;
+    font-weight: bold;
+    height: 24px;
+    width: 58px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.bt_cancel {
+    color: White;
+    background-color: #CC0000;
+    border-style: None;
+    font-weight: bold;
+    height: 26px;
+    width: 57px;
+    border-radius: 8px;
+    text-align: center;
+}
