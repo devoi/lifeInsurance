@@ -16,7 +16,8 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44373</IISExpressSSLPort>
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -68,9 +69,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin.aspx" />
+    <Content Include="BackgroundImage.png" />
+    <Content Include="Banner.png" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="HomepageBackground.jpg" />
+    <Content Include="img\articleimg.png" />
     <Content Include="img\banner.jpg" />
     <Content Include="img\bg.jpg" />
     <Content Include="article_management.aspx" />
+    <Content Include="img\feedbackimg.png" />
+    <Content Include="img\homebg.jpg" />
+    <Content Include="img\loginimg.png" />
     <Content Include="login.aspx" />
     <Content Include="css\main.css" />
     <Content Include="PolicyDetails.aspx" />
@@ -94,6 +103,13 @@
       <DependentUpon>article_management.aspx</DependentUpon>
     </Compile>
     <Compile Include="datalogic.cs" />
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
