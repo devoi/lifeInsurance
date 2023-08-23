@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Admin Panel | Article Management </title>
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
@@ -62,11 +62,11 @@
                     <br />
                     <asp:Label ID="Label1" runat="server" Font-Size="X-Large" Text="Title: "></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox1" runat="server" Font-Size="Medium" Height="46px" Width="285px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Font-Size="Medium" Height="46px" Width="285px" TextMode="MultiLine"></asp:TextBox>
                     <br />
                     <br />
                     <asp:Label ID="Label2" runat="server" Font-Size="X-Large" Text="Content: "></asp:Label>
-&nbsp;<asp:TextBox ID="TextBox2" runat="server" Font-Size="Medium" Height="112px" Width="282px"></asp:TextBox>
+&nbsp;<asp:TextBox ID="TextBox2" runat="server" Font-Size="Medium" Height="112px" Width="282px" TextMode="MultiLine"></asp:TextBox>
                     <br />
                     <br />
                     &nbsp;&nbsp;
