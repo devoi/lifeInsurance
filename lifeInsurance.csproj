@@ -83,6 +83,7 @@
     <Content Include="PersonalDetails.aspx" />
     <Content Include="Web.config" />
     <Content Include="manageInsured.aspx" />
+    <Content Include="management.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin.aspx.cs">
@@ -142,6 +143,13 @@
     </Compile>
     <Compile Include="manageInsured.aspx.designer.cs">
       <DependentUpon>manageInsured.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="management.aspx.cs">
+      <DependentUpon>management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="management.aspx.designer.cs">
+      <DependentUpon>management.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

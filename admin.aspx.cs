@@ -24,7 +24,7 @@ namespace lifeInsurance
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("");
+            Response.Redirect("article_management.aspx");
         }
 
         protected void Button3_Click(object sender, EventArgs e)
@@ -33,11 +33,6 @@ namespace lifeInsurance
             int i = obj.GetData("update tblsuperadmin set password = '"+TextBox1.Text+"' where userid = '" + Session["username"] +"'");
             if (i == 1)
                 Label2.Text = "Password Changed Sucessfully";
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("article_management.aspx");
         }
     }
 }
