@@ -34,6 +34,11 @@
             <asp:Button ID="Button1" runat="server" CssClass="bt_cancel" OnClick="Button1_Click" Text="Delete" />
             <br />
             <br />
+            <br />
+            <asp:Label ID="Label6" runat="server" Text="Want to add a new Insured person?. "></asp:Label>
+            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Click Here!.</asp:LinkButton>
+            <br />
+            <br />
         </div>       
       </div>
     </form>
