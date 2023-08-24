@@ -13,5 +13,20 @@ namespace lifeInsurance
         {
 
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("insuredRegistration.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            sql_con obj = new sql_con();
+            int i =obj.GetData("insert into tblmedicalhistory values("+TextBox1.Text+","+TextBox2.Text+",'"+TextBox3.Text+"','"+TextBox4.Text+"')");
+            if (i == 1)
+                Response.Write(i + " Record Inserted");
+            else
+                Response.Write("Insured ID not Found");
+        }
     }
 }

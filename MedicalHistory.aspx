@@ -11,28 +11,29 @@
     <form id="form1" runat="server">
         <div class="wrapper">
             <div class="content" style="text-align:center">
-                    <asp:Label ID="Label6" runat="server" Text="Serial Number:"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text="Serial Number:"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox5" runat="server" TextMode="Number"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
             <br />
-                    <asp:Label ID="Label7" runat="server" Text="Insured ID:"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Insured ID:"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
             <br />
-                    <asp:Label ID="Label8" runat="server" Text="Disease Date:"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="Disease Date:"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox7" runat="server" TextMode="Date"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" TextMode="Date"></asp:TextBox>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
             <br />
-                    <asp:Label ID="Label9" runat="server" Text="Disease: "></asp:Label>
+                    <asp:Label ID="Label4" runat="server" Text="Disease: "></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
                     <br />
-                    <asp:Button ID="Button1" runat="server" Text="Submit" class="bt_submit"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Button ID="Button2" runat="server" Text="Cancel" class="bt_cancel"/>
-            </div>
+                <asp:Button ID="Button1" runat="server" Text="Submit" class="bt_submit" OnClick="Button1_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <asp:Button ID="Button2" runat="server" Text="Cancel" class="bt_cancel" OnClick="Button2_Click" />
+                </div>
             </div>
     </form>
 </body>
