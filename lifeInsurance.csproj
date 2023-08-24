@@ -16,8 +16,7 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>
-    </IISExpressSSLPort>
+    <IISExpressSSLPort>44373</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -79,8 +78,10 @@
     <Content Include="img\loginimg.png" />
     <Content Include="login.aspx" />
     <Content Include="css\main.css" />
+    <Content Include="MedicalHistory.aspx" />
     <Content Include="PolicyDetails.aspx" />
     <Content Include="PersonalDetails.aspx" />
+    <Content Include="PolicyMaximums.aspx" />
     <Content Include="Web.config" />
     <Content Include="manageInsured.aspx" />
     <Content Include="management.aspx" />
@@ -115,6 +116,13 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MedicalHistory.aspx.cs">
+      <DependentUpon>MedicalHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedicalHistory.aspx.designer.cs">
+      <DependentUpon>MedicalHistory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PolicyDetails.aspx.cs">
       <DependentUpon>PolicyDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -128,6 +136,13 @@
     </Compile>
     <Compile Include="PersonalDetails.aspx.designer.cs">
       <DependentUpon>PersonalDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PolicyMaximums.aspx.cs">
+      <DependentUpon>PolicyMaximums.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PolicyMaximums.aspx.designer.cs">
+      <DependentUpon>PolicyMaximums.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
