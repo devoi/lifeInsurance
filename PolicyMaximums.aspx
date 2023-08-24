@@ -90,9 +90,9 @@
                 <br />
                 &nbsp;&nbsp;<br />
                 <br />
-                <asp:Button ID="Button1" runat="server" Text="Submit" class="bt_submit" CssClass="bt_submit" />
+                <asp:Button ID="Button1" runat="server" Text="Submit" CssClass="bt_submit" OnClick="Button1_Click" />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Cancel" CssClass="bt_cancel" />
+                <asp:Button ID="Button2" runat="server" Text="Cancel" CssClass="bt_cancel" OnClick="Button2_Click" />
             </div>
         </div>
     </form>

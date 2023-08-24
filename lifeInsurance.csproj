@@ -16,7 +16,8 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44373</IISExpressSSLPort>
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -77,6 +78,7 @@
     <Content Include="img\feedbackimg.png" />
     <Content Include="img\homebg.jpg" />
     <Content Include="img\loginimg.png" />
+    <Content Include="insuredRegistration.aspx" />
     <Content Include="login.aspx" />
     <Content Include="css\main.css" />
     <Content Include="MedicalHistory.aspx" />
@@ -85,7 +87,6 @@
     <Content Include="PolicyMaximums.aspx" />
     <Content Include="Web.config" />
     <Content Include="manageInsured.aspx" />
-    <Content Include="management.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin.aspx.cs">
@@ -116,6 +117,13 @@
     </Compile>
     <Compile Include="homepage.aspx.designer.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="insuredRegistration.aspx.cs">
+      <DependentUpon>insuredRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insuredRegistration.aspx.designer.cs">
+      <DependentUpon>insuredRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -166,13 +174,6 @@
     </Compile>
     <Compile Include="manageInsured.aspx.designer.cs">
       <DependentUpon>manageInsured.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="management.aspx.cs">
-      <DependentUpon>management.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="management.aspx.designer.cs">
-      <DependentUpon>management.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
