@@ -4,36 +4,34 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data;
-using System.Data.SqlClient;
 
 namespace lifeInsurance
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class insuredRegistration : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        protected void ListView1_SelectedIndexChanging(object sender, ListViewSelectEventArgs e)
         {
 
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-           
+            Response.Redirect("PersonalDetails.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("MedicalHistory.aspx");
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
+        protected void Button3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PersonalDetails.aspx");
+            Response.Redirect("PolicyDetails.aspx");
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PolicyMaximums.aspx");
         }
     }
 }

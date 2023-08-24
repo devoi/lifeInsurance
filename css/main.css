@@ -2,6 +2,10 @@
     margin: 0;
     border: none;
 }
+a{
+    text-decoration:none;
+}
+
 
 input{border:solid 1px black;
       border-radius:5px;
@@ -36,6 +40,8 @@ body {
     font-weight: bold;
     border-radius: 8px;
     text-align: center;
+    height: 26px;
+    width: 57px;
 }
 
 .bt_cancel {
@@ -73,3 +79,35 @@ nav {
             background-color: #ddd;
             color: darkcyan;
         }
+#caption {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    white-space: nowrap;
+    -moz-animation: caption 50s linear 0s infinite;
+    -webkit-animation: caption 50s linear 0s infinite;
+}
+
+@-moz-keyframes caption {
+    0% {
+        margin-left: 120%;
+    }
+
+    100% {
+        margin-left: -4200px;
+    }
+}
+
+@-webkit-keyframes caption {
+    0% {
+        margin-left: 120%;
+    }
+
+    100% {
+        margin-left: -4200px;
+    }
+}

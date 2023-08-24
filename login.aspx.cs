@@ -14,7 +14,10 @@ namespace lifeInsurance
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                ViewState["GoBackTo"] = Request.UrlReferrer;
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -26,7 +29,9 @@ namespace lifeInsurance
             if (i == 1)
             {
                 string role = ds.Tables[0].Rows[0][0].ToString();
-                if (role == "admin")
+                if (ViewState["GoBackTo"] != null)
+                    Response.Redirect(ViewState["GoBackTo"].ToString());
+                else if (role == "admin")
                     Response.Redirect("admin.aspx");
                 else if (role == "customer")
                     Response.Redirect("customer.aspx");
