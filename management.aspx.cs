@@ -16,14 +16,15 @@ namespace lifeInsurance
             
         }
 
-        protected void ListView1_SelectedIndexChanging(object sender, ListViewSelectEventArgs e)
+        protected void LinkButton1_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("PersonalDetails.aspx");
         }
 
+        
         protected void Button1_Click(object sender, EventArgs e)
         {
-           
+
         }
     }
 }

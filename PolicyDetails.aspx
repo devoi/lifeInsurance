@@ -9,10 +9,32 @@
 
 </head>
 <body>
+    <!--Nav Starts Here-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">My Account</a>
+        <a href="#">Why Insurance?</a>
+        <a href="#">Products</a>
+        <a href="#">Contact Us!</a>
+    </nav>
+    <!--Nav Ends Here-->
     <form id="form1" runat="server">
         <main>
             <div class="wrapper">
-                <div class="content" style="text-align: left">
+                <div class="content" style="text-align: left;">
 
                     <asp:Label ID="Label1" runat="server" Text="Policy Number: "></asp:Label>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
