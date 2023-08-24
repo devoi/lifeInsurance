@@ -11,7 +11,7 @@ namespace lifeInsurance
 {
 
 
-    public partial class Homepage
+    public partial class homepage
     {
 
         /// <summary>
