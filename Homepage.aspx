@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Homepage | Life Insurance</title>
     <link href="css/main.css" rel="stylesheet" />
+    
 </head>
 <body>
     <!--Nav Starts Here-->
@@ -26,8 +27,8 @@
         <a href="#">Home</a>
         <a href="#">My Account</a>
         <a href="#">Why Insurance?</a>
-        <a href="#">Products</a>
-        <a href="#">Contact Us!</a>
+        <a href="#">Products</a>            
+        <a href="#" id="contact">Contact Us!</a>        
     </nav>
     <!--Nav Ends Here-->
     <form id="form1" runat="server">
@@ -62,6 +63,7 @@
 
 
             <asp:Button ID="Button3" runat="server" CssClass="bt_submit" Text="Give Feedback" Height="41px" Width="106px" />
+            
         </div>
     </form>
 </body>

@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin.aspx" />
+    <Content Include="artpage.aspx" />
     <Content Include="homepage.aspx" />
     <Content Include="img\articleimg.png" />
     <Content Include="img\banner.jpg" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="article_management.aspx.designer.cs">
       <DependentUpon>article_management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="artpage.aspx.cs">
+      <DependentUpon>artpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="artpage.aspx.designer.cs">
+      <DependentUpon>artpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="datalogic.cs" />
     <Compile Include="homepage.aspx.cs">
