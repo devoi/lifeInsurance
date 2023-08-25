@@ -52,7 +52,7 @@
 
                     <asp:Label ID="Label7" runat="server" Text="Policy Number:"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 &nbsp;&nbsp;<br />
                 <br />
                 <asp:Label ID="Label8" runat="server" Text="Op Maximums:"></asp:Label>
