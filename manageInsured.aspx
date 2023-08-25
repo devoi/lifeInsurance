@@ -56,7 +56,7 @@
                 <div class="content">
                     <h3>Add New Insured Person</h3>
                     <br />
-                    <asp:Button ID="Button1" runat="server" Text="Add Insured Person" />
+                    <asp:Button ID="Button1" runat="server" Text="Add Insured Person" OnClick="Button1_Click" />
                 </div>
             </div>
         </main>

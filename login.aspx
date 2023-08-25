@@ -48,9 +48,9 @@
             <asp:Label ID="Label3" runat="server" ForeColor="#CC0000"></asp:Label>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Login" BackColor="#009933" OnClick="Button1_Click" ValidationGroup="login" />
+            <asp:Button ID="Button1" runat="server" Text="Login" BackColor="#009933" OnClick="Button1_Click" ValidationGroup="login" CssClass="bt_submit" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Clear" BackColor="#CC0000" OnClick="Button2_Click" />
+            <asp:Button ID="Button2" runat="server" Text="Clear" BackColor="#CC0000" OnClick="Button2_Click" CssClass="bt_cancel" />
         </main>
     </form>
 </body>
