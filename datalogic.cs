@@ -12,7 +12,7 @@ namespace lifeInsurance
     {
         public int GetData(string s)
         {
-                SqlConnection con = new SqlConnection("Initial catalog=db_lifeinsurance; integrated security=true; server=VDILEWVPNTH512");
+                SqlConnection con = new SqlConnection("Initial catalog=db_lifeinsurance; integrated security=true; server=VDILEWVPNTH511");
                 con.Open();
                 SqlCommand cmd = new SqlCommand(s, con);
                 int i = cmd.ExecuteNonQuery();
@@ -24,7 +24,7 @@ namespace lifeInsurance
     {
         public DataSet GetData(string s)
         {
-            SqlConnection con = new SqlConnection("Initial catalog=db_lifeinsurance; integrated security=true; server=VDILEWVPNTH512");
+            SqlConnection con = new SqlConnection("Initial catalog=db_lifeinsurance; integrated security=true; server=VDILEWVPNTH511");
             SqlDataAdapter da = new SqlDataAdapter(s, con);
             DataSet ds = new DataSet();
             da.Fill(ds);

@@ -48,33 +48,33 @@
         <div style="text-align: left">
             <br />
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="ImageButton1" runat="server" ImageUrl="\img\loginimg.png" Height="94px" Width="116px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/login.aspx">
+            <asp:Image ID="ImageButton1" runat="server" ImageUrl="\img\loginimg.png" Height="94px" Width="116px" /></a>
 
 
-            <asp:Button ID="Button1" runat="server" CssClass="bt_submit" Text="Login" Height="41px" Width="106px" />
+            <asp:Button ID="Button1" runat="server" CssClass="bt_submit" Text="Login" Height="41px" Width="106px" OnClick="Button1_Click" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
             <br />
             <br />
             <br />
             <br />
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="Image1" runat="server" ImageUrl="\img\articleimg.png" Height="94px" Width="116px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/artpage.aspx">
+            <asp:Image ID="Image1" runat="server" ImageUrl="\img\articleimg.png" Height="94px" Width="116px" /></a>
 
 
-            <asp:Button ID="Button2" runat="server" CssClass="bt_submit" Text="Our Articles" Height="41px" Width="106px" />
+            <asp:Button ID="Button2" runat="server" CssClass="bt_submit" Text="Our Articles" Height="41px" Width="106px" OnClick="Button2_Click" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
             <br />
             <br />
             <br />
             <br />
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="Image2" runat="server" ImageUrl="\img\feedbackimg.png" Height="94px" Width="116px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Feedback.aspx">
+            <asp:Image ID="Image2" runat="server" ImageUrl="\img\feedbackimg.png" Height="94px" Width="116px" /></a>
 
 
-            <asp:Button ID="Button3" runat="server" CssClass="bt_submit" Text="Give Feedback" Height="41px" Width="106px" />
+            <asp:Button ID="Button3" runat="server" CssClass="bt_submit" Text="Give Feedback" Height="41px" Width="106px" OnClick="Button3_Click" />
 
         </div>
     </form>
