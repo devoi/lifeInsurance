@@ -14,7 +14,7 @@ namespace lifeInsurance
            if (Session["username"]==null)
                 Response.Redirect("login.aspx");
            else
-                Label1.Text = "Welcome " + Session["username"];
+                Label1.Text = "Welcome to Admin Dashboard! " + Session["username"];
         }
 
         protected void Button1_Click(object sender, EventArgs e)
