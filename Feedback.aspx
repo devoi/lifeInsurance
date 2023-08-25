@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
 </head>
 <body>
-        <!--Nav Starts Here-->
+    <!--Nav Starts Here-->
     <br />
     <br />
     <br />
@@ -35,7 +35,7 @@
                 <a href="/Feedback.aspx">Feedback</a>
                 <a href="/logout.aspx" style="color: #FF0000">Logout</a>
             </div>
-                        <div class="col-md-1" style="width: 50%; height: 50px;">
+            <div class="col-md-1" style="width: 50%; height: 50px;">
                 <marquee style="color: ghostwhite; margin-top: 14PX;">
                     Getting life insurance coverage is now faster and easier than ever! You can get a personalized, free, and no obligation term life insurance quote in just a few minutes on the phone. It's that easy to start helping protect your family's financial future! Starting at &#8377;699 per month...
                 </marquee>
@@ -43,26 +43,28 @@
         </div>
 
     </nav>
-    <!--Nav Ends Here-->    <form id="form1" runat="server">
-        <div>
-        </div>
-        <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
-        <asp:Label ID="Label1" runat="server" Text="Your Name: " Font-Size="Large"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!--Nav Ends Here-->
+    <form id="form1" runat="server">
+        <main>
+            <div class="wrapper">
+                <div class="content">
+                    <asp:Label ID="Label1" runat="server" Text="Your Name: " Font-Size="Large"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="TextBox1" runat="server" Font-Size="Large"></asp:TextBox>
-        <br />
-        <br />
-        <asp:Label ID="Label2" runat="server" Text="Your Feedback: " Font-Size="Large"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine" BorderWidth="1px" Font-Size="Large"></asp:TextBox>
-        <br />
-        <br />
-        <asp:Label ID="Label3" runat="server" Font-Size="Large" ForeColor="#00CC66" Text="Your Feedback is Valuable for Us!."></asp:Label>
-        <br />
-        <br />
-        <asp:Button ID="Button1" runat="server" Text="Submit" CssClass="bt_submit" Font-Size="Large" OnClick="Button1_Click"/>
+                    <br />
+                    <br />
+                    <asp:Label ID="Label2" runat="server" Text="Your Feedback: " Font-Size="Large"></asp:Label>
+                    <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine" BorderWidth="1px" Font-Size="Large"></asp:TextBox>
+                    <br />
+                    <br />
+                    <asp:Label ID="Label3" runat="server" Font-Size="Large" ForeColor="#00CC66" Text="Your Feedback is Valuable for Us!."></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Button ID="Button1" runat="server" Text="Submit" CssClass="bt_submit" OnClick="Button1_Click" />
+                </div>
+            </div>
+            <div></div>
+        </main>
     </form>
 </body>
 </html>
