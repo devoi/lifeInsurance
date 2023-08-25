@@ -49,22 +49,22 @@
                 <div class="content">
                     <h3>Personal Details</h3>
                     <br />
-                    <asp:Button ID="Button1" runat="server" Text="Insert Details" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="33px" Width="132px" />
                 </div>
                 <div class="content">
                     <h3>Medical History</h3>
                     <br />
-                    <asp:Button ID="Button2" runat="server" Text="Insert Details" OnClick="Button2_Click" />
+                    <asp:Button ID="Button2" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="31px" Width="127px" />
                 </div>
                 <div class="content">
                     <h3>Policy Details</h3>
                     <br />
-                    <asp:Button ID="Button3" runat="server" Text="Insert Details" OnClick="Button3_Click" />
+                    <asp:Button ID="Button3" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="28px" Width="128px" />
                 </div>
                 <div class="content">
                     <h3>Policy Maximum</h3>
                     <br />
-                    <asp:Button ID="Button4" runat="server" Text="Insert Details" OnClick="Button4_Click" />
+                    <asp:Button ID="Button4" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="28px" Width="128px" />
                 </div>
             </div>
         </main>
