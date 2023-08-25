@@ -8,6 +8,28 @@
     <title></title>
 </head>
 <body>
+    <!--Nav Starts Here-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">My Account</a>
+        <a href="#">Why Insurance?</a>
+        <a href="#">Products</a>
+        <a href="#">Contact Us!</a>
+    </nav>
+    <!--Nav Ends Here-->
     <form id="form1" runat="server">
         <div class="wrapper">
             <div class="content" style="text-align:center">
