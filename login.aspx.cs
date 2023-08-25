@@ -29,12 +29,13 @@ namespace lifeInsurance
             if (i == 1)
             {
                 string role = ds.Tables[0].Rows[0][0].ToString();
+                Session["role"] = role;
                 if (ViewState["GoBackTo"] != null)
                     Response.Redirect(ViewState["GoBackTo"].ToString());
                 else if (role == "admin")
                     Response.Redirect("admin.aspx");
                 else if (role == "customer")
-                    Response.Redirect("customer.aspx");
+                    Response.Redirect("myAccount.aspx");
             }
             else
                 Label3.Text = "Please Enter correct details";
