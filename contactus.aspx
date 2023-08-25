@@ -72,5 +72,27 @@
             </div>
         </main>
     </form>
+    <form>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+            <div class="content" style="width: 100%; height: 100%;">
+                <p> <b> CALL US!. </b><br /> 
+                    +91-0123456789<br />
+                    +91-0123456710<br />
+                    +91-0123456711</p>
+                <p> <br />
+                <b>CONNECT WITH US!.</b><br />
+                    LINKEDIN  :  https://www.linkedin.com/javlifeinsurance<br />
+                    TWITTER   :  https://twitter.com/javlifeinsurance <br />
+                    INSTAGRAM :  https://instagram.com/javlifeinsurance <br/>
+                </p>               
+      </div>
+    </form>
 </body>
 </html>
