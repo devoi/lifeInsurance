@@ -32,25 +32,30 @@
     <!--Nav Ends Here-->
     <form id="form1" runat="server">
         <main>
-            <br />
-            <asp:Label ID="Label1" runat="server" Text="User ID"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+            <div class="wrapper">
+                <div class="content">
+
+                    <br />
+                    <asp:Label ID="Label1" runat="server" Text="User ID"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*UserID required" ForeColor="#CC0000" ControlToValidate="TextBox1" ValidationGroup="login"></asp:RequiredFieldValidator>
-            <br />
-            <br />
-            <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
-&nbsp; &nbsp;
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*UserID required" ForeColor="#CC0000" ControlToValidate="TextBox1" ValidationGroup="login"></asp:RequiredFieldValidator>
+                    <br />
+                    <br />
+                    <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
+                    &nbsp; &nbsp;
             <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Password required" ForeColor="#CC0000" ControlToValidate="TextBox2" ValidationGroup="login"></asp:RequiredFieldValidator>
-            <br />
-            <br />
-            <asp:Label ID="Label3" runat="server" ForeColor="#CC0000"></asp:Label>
-            <br />
-            <br />
-            <asp:Button ID="Button1" runat="server" Text="Login" BackColor="#009933" OnClick="Button1_Click" ValidationGroup="login" CssClass="bt_submit" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Clear" BackColor="#CC0000" OnClick="Button2_Click" CssClass="bt_cancel" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Password required" ForeColor="#CC0000" ControlToValidate="TextBox2" ValidationGroup="login"></asp:RequiredFieldValidator>
+                    <br />
+                    <br />
+                    <asp:Label ID="Label3" runat="server" ForeColor="#CC0000"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Button ID="Button1" runat="server" Text="Login" BackColor="#009933" OnClick="Button1_Click" ValidationGroup="login" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button2" runat="server" Text="Clear" BackColor="#CC0000" OnClick="Button2_Click" />
+                </div>
+            </div>
         </main>
     </form>
 </body>
