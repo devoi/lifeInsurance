@@ -92,6 +92,7 @@
     <Content Include="PolicyMaximums.aspx" />
     <Content Include="Web.config" />
     <Content Include="manageInsured.aspx" />
+    <Content Include="WhyInsurance.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="accounts.aspx.cs">
@@ -214,6 +215,13 @@
     </Compile>
     <Compile Include="manageInsured.aspx.designer.cs">
       <DependentUpon>manageInsured.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WhyInsurance.aspx.cs">
+      <DependentUpon>WhyInsurance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WhyInsurance.aspx.designer.cs">
+      <DependentUpon>WhyInsurance.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
