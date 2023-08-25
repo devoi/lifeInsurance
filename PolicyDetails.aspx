@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <!--Nav Starts Here-->
+        <!--Nav Starts Here-->
     <br />
     <br />
     <br />
@@ -24,11 +24,23 @@
     <br />
     <br />
     <nav>
-        <a href="#">Home</a>
-        <a href="#">My Account</a>
-        <a href="#">Why Insurance?</a>
-        <a href="#">Products</a>
-        <a href="#">Contact Us!</a>
+        <div class="row" style="width: 100%; height: 46px;">
+            <div class="col-md-1" style="width: 50%; height: 80px;">
+                <a href="/homepage.aspx">Home</a>
+                <a href="/accounts.aspx">My Account</a>
+                <a href="/WhyInsurance.aspx">Why Insurance?</a>
+                <a href="/artpage.aspx">Products</a>
+                <a href="/contactus.aspx">Contact Us!</a>
+                <a href="/Feedback.aspx">Feedback</a>
+                <a href="/logout.aspx" style="color: #FF0000">Logout</a>
+            </div>
+                        <div class="col-md-1" style="width: 50%; height: 50px;">
+                <marquee style="color: ghostwhite; margin-top: 14PX;">
+                    Getting life insurance coverage is now faster and easier than ever! You can get a personalized, free, and no obligation term life insurance quote in just a few minutes on the phone. It's that easy to start helping protect your family's financial future! Starting at &#8377;699 per month...
+                </marquee>
+            </div>
+        </div>
+
     </nav>
     <!--Nav Ends Here-->
     <form id="form1" runat="server">
@@ -65,14 +77,14 @@
                         <asp:ListItem>tpa2</asp:ListItem>
                         <asp:ListItem>tpa3</asp:ListItem>
                     </asp:DropDownList>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label12" runat="server" Text="Start Date of Baby Cover: "></asp:Label>
                     <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
                     <br />
                     <br />
                     <asp:Label ID="Label6" runat="server" Text="Type of Cover: "></asp:Label>
                     <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label13" runat="server" Text="Pre-Hospital Days: "></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>

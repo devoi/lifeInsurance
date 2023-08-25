@@ -16,7 +16,8 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44373</IISExpressSSLPort>
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="accounts.aspx" />
     <Content Include="admin.aspx" />
     <Content Include="artpage.aspx" />
     <Content Include="contactus.aspx" />
@@ -82,7 +84,9 @@
     <Content Include="insuredRegistration.aspx" />
     <Content Include="login.aspx" />
     <Content Include="css\main.css" />
+    <Content Include="logout.aspx" />
     <Content Include="MedicalHistory.aspx" />
+    <Content Include="myAccount.aspx" />
     <Content Include="PolicyDetails.aspx" />
     <Content Include="PersonalDetails.aspx" />
     <Content Include="PolicyMaximums.aspx" />
@@ -90,6 +94,13 @@
     <Content Include="manageInsured.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="accounts.aspx.cs">
+      <DependentUpon>accounts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="accounts.aspx.designer.cs">
+      <DependentUpon>accounts.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin.aspx.cs">
       <DependentUpon>admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,12 +158,26 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MedicalHistory.aspx.cs">
       <DependentUpon>MedicalHistory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MedicalHistory.aspx.designer.cs">
       <DependentUpon>MedicalHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myAccount.aspx.cs">
+      <DependentUpon>myAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myAccount.aspx.designer.cs">
+      <DependentUpon>myAccount.aspx</DependentUpon>
     </Compile>
     <Compile Include="PolicyDetails.aspx.cs">
       <DependentUpon>PolicyDetails.aspx</DependentUpon>
