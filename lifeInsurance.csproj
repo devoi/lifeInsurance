@@ -90,6 +90,7 @@
     <Content Include="PolicyDetails.aspx" />
     <Content Include="PersonalDetails.aspx" />
     <Content Include="PolicyMaximums.aspx" />
+    <Content Include="db_lifeinsurance.sql" />
     <Content Include="Web.config" />
     <Content Include="manageInsured.aspx" />
     <Content Include="WhyInsurance.aspx" />
