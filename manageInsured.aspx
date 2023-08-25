@@ -69,7 +69,7 @@
                 <div class="content">
                     <h3>Add New Insured Person</h3>
                     <br />
-                    <asp:Button ID="Button1" runat="server" Text="Add Insured Person" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" runat="server" Text="Add Insured Person" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="32px" Width="204px" />
                 </div>
             </div>
         </main>
