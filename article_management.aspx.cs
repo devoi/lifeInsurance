@@ -14,7 +14,7 @@ namespace lifeInsurance
         {
             sql_ad obj = new sql_ad();
             DataSet ds = obj.GetData("select * from articles");
-            GridView2.DataSource = ds.Tables[0];
+            //GridView1.DataSource = ds.Tables[0];
         }
 
         protected void MultiView1_ActiveViewChanged(object sender, EventArgs e)
