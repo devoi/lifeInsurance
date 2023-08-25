@@ -23,11 +23,10 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
+
     <nav>
         <div class="row" style="width: 100%; height: 46px;">
-            <div class="col-md-1" style="width: 50%; height: 80px;">
+            <div class="col-md-1" style="width: 50%; height: 46px;">
                 <a href="/homepage.aspx">Home</a>
                 <a href="/accounts.aspx">My Account</a>
                 <a href="/WhyInsurance.aspx">Why Insurance?</a>
@@ -44,8 +43,7 @@
         </div>
 
     </nav>
-    <!--Nav Ends Here-->
-    <form id="form1" runat="server">
+    <!--Nav Ends Here-->    <form id="form1" runat="server">
         <main>
             <div class="wrapper">
                 <div class="content" style="text-align: left">
