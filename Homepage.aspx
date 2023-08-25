@@ -23,12 +23,13 @@
     <br />
     <br />
     <br />
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">My Account</a>
+    <nav >
+        <a href="/homepage.aspx">Home</a>
+        <a href="">My Account</a>
         <a href="#">Why Insurance?</a>
         <a href="#">Products</a>            
-        <a href="#" id="contact">Contact Us!</a>        
+        <a href="#" id="contact">Contact Us!</a> 
+        <a href="/homepage.aspx" style="color: #FF0000">Logout</a>
     </nav>
     <!--Nav Ends Here-->
     <form id="form1" runat="server">

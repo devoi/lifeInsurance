@@ -23,8 +23,6 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
 
     <nav>
         <div class="row" style="width: 100%; height: 50px;">
@@ -36,8 +34,9 @@
                 <a href="#">Contact Us!</a>
             </div>
             <div class="col-md-1" style="width: 50%; height: 50px;">
-                <marquee STYLE="color:darkred;MARGIN-TOP: 14PX;
-">HELLO GYS WELCOME TO INSURENCE SYSTEM....</marquee>
+                <marquee style="color: ghostwhite; margin-top: 14PX;">
+                    Getting life insurance coverage is now faster and easier than ever! You can get a personalized, free, and no obligation term life insurance quote in just a few minutes on the phone. It's that easy to start helping protect your family's financial future! Starting at &#8377;699 per month...
+                </marquee>
             </div>
         </div>
 
