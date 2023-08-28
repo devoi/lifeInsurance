@@ -6,6 +6,9 @@
 <head runat="server">
     <title>Admin Panel | Article Management </title>
     <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
         <!--Nav Starts Here-->
@@ -20,11 +23,10 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
+
     <nav>
         <div class="row" style="width: 100%; height: 46px;">
-            <div class="col-md-1" style="width: 50%; height: 80px;">
+            <div class="col-md-1" style="width: 50%; height: 46px;">
                 <a href="/homepage.aspx">Home</a>
                 <a href="/accounts.aspx">My Account</a>
                 <a href="/WhyInsurance.aspx">Why Insurance?</a>
@@ -62,7 +64,7 @@
                             <br />
                             <br />
                             <br />
-                            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" Font-Size="Large" ForeColor="#333333" GridLines="None" DataKeyNames="sno" DataSourceID="SqlDataSource1" >
+                            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" Font-Size="Large" ForeColor="#333333" GridLines="None" DataKeyNames="sno" DataSourceID="SqlDataSource2ArticleMng">
                                 <AlternatingRowStyle BackColor="White" />
                                 <Columns>
                                     <asp:BoundField DataField="sno" HeaderText="sno" InsertVisible="False" ReadOnly="True" SortExpression="sno" />
@@ -80,7 +82,8 @@
                                 <SortedDescendingCellStyle BackColor="#E9EBEF" />
                                 <SortedDescendingHeaderStyle BackColor="#4870BE" />
                             </asp:GridView>
-                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_lifeinsuranceConnectionStringArticles %>" ProviderName="<%$ ConnectionStrings:db_lifeinsuranceConnectionStringArticles.ProviderName %>" SelectCommand="SELECT * FROM [articles]"></asp:SqlDataSource>
+                            <asp:SqlDataSource runat="server" ID="SqlDataSource2ArticleMng"></asp:SqlDataSource>
+                            
                             <asp:Label ID="Label5" runat="server" Text="Enter the SNo to delete: "></asp:Label>
                             &nbsp;<asp:TextBox ID="TextBox3" runat="server" TextMode="Number"></asp:TextBox>
                             <br />
