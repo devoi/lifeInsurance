@@ -22,7 +22,11 @@ namespace lifeInsurance
             }
             else
             {
-                Label3.Text = TextBox1.Text+" thank you for your Feedback" ;                
+                sql_con con = new sql_con();
+                int i = con.GetData("insert into tblfeedback values('" + TextBox1.Text + "','" + TextBox2.Text + "')");
+                Label3.Text = TextBox1.Text+" thank you for your Feedback" ;
+                TextBox1.Text = "";
+                TextBox2.Text = "";
             }
         }
     }

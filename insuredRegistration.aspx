@@ -54,17 +54,17 @@
                 <div class="content">
                     <h3>Medical History</h3>
                     <br />
-                    <asp:Button ID="Button2" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="31px" Width="127px" />
+                    <asp:Button ID="Button2" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button2_Click" BorderColor="#33CCCC" ForeColor="White" Height="31px" Width="127px" />
                 </div>
                 <div class="content">
                     <h3>Policy Details</h3>
                     <br />
-                    <asp:Button ID="Button3" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="28px" Width="128px" />
+                    <asp:Button ID="Button3" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button3_Click" BorderColor="#33CCCC" ForeColor="White" Height="28px" Width="128px" />
                 </div>
                 <div class="content">
                     <h3>Policy Maximum</h3>
                     <br />
-                    <asp:Button ID="Button4" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button1_Click" BorderColor="#33CCCC" ForeColor="White" Height="28px" Width="128px" />
+                    <asp:Button ID="Button4" runat="server" Text="Insert Details" BackColor="#33CCCC" OnClick="Button4_Click" BorderColor="#33CCCC" ForeColor="White" Height="28px" Width="128px" />
                 </div>
             </div>
         </main>
