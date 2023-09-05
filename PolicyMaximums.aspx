@@ -46,18 +46,21 @@
     <!--Nav Ends Here-->
     <form id="form1" runat="server">
         <div style="font-weight: 700" class="wrapper">
-            <div class="content">
+            <div class="content" style="text-align:center">
                 <h3>Policy Maximums</h3>
                 
                 <br />
                 <br />
                     <asp:Label ID="Label7" runat="server" Text="Policy Number:"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                <asp:Label ID="Label19" runat="server" Text="Other Maximums:"></asp:Label>
+                <asp:TextBox ID="TextBox14" runat="server" TextMode="Number" OnTextChanged="TextBox14_TextChanged"></asp:TextBox>
                 &nbsp;&nbsp;<br />
+                
                 <br />
                 <asp:Label ID="Label8" runat="server" Text="Op Maximums:"></asp:Label>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;
                     <asp:TextBox ID="TextBox2" runat="server" TextMode="Number" Style="margin-left: 38px;"></asp:TextBox>
                 &nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -112,10 +115,7 @@
                     <asp:TextBox ID="TextBox13" runat="server" TextMode="Number"></asp:TextBox>
                 &nbsp;&nbsp;<br />
                 <br />
-                <asp:Label ID="Label19" runat="server" Text="Other Maximums: " style="margin-left: -375px;
-"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox14" runat="server" TextMode="Number"></asp:TextBox>
                 &nbsp;&nbsp;
                 <br />
                 &nbsp;&nbsp;<br />
