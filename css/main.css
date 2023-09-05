@@ -88,8 +88,8 @@ nav {
     height: 30px;
     width: 100%;
     white-space: nowrap;
-    -moz-animation: caption 90s linear 0s infinite;
-    -webkit-animation: caption 90s linear 0s infinite;
+    -moz-animation: caption 100s linear 0s infinite;
+    -webkit-animation: caption 100s linear 0s infinite;
 }
 
 @-moz-keyframes caption {

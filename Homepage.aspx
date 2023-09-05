@@ -22,7 +22,6 @@
     <br />
     <br />
     <br />
-    <br />
 
     <nav>
         <div class="row" style="width: 100%; height: 46px;">
