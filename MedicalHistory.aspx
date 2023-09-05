@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link href = "css/main.css" rel="stylesheet" />
-    <title></title>
+    <title>Medical History | Life Insurance</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -47,6 +47,9 @@
     <form id="form1" runat="server">
         <div class="wrapper">
             <div class="content" style="text-align:center">
+                <h3>Medical History</h3>
+                <br />
+                <br />
                     <asp:Label ID="Label1" runat="server" Text="Serial Number:"></asp:Label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="TextBox1" runat="server" TextMode="Number"></asp:TextBox>

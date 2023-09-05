@@ -64,7 +64,7 @@
                     <br />
                     <asp:Label ID="Label1" runat="server" Text="Enter Insured ID to Delete"></asp:Label>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                    <asp:Button ID="Button2" runat="server" Text="Delete" CssClass="bt_cancel" />
+                    <asp:Button ID="Button2" runat="server" Text="Delete" CssClass="bt_cancel" OnClick="Button2_Click" />
                 </div>
                 <div class="content">
                     <h3>Add New Insured Person</h3>

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link href="css/main.css" rel="stylesheet" />
-    <title></title>
+    <title>Policy Maximums | Life Insurance</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -46,22 +46,21 @@
     <!--Nav Ends Here-->
     <form id="form1" runat="server">
         <div style="font-weight: 700" class="wrapper">
-            <div class="content" style="width: 80%; height: 500px; background-color: #247ecd6b;">
-                <center>
-                    <h2 style="color: deeppink; font-weight: 700;"><b>Form</b></h2>
-                </center>
+            <div class="content" style="text-align:center">
+                <h3>Policy Maximums</h3>
+                
                 <br />
                 <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-
                     <asp:Label ID="Label7" runat="server" Text="Policy Number:"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                <asp:Label ID="Label19" runat="server" Text="Other Maximums:"></asp:Label>
+                <asp:TextBox ID="TextBox14" runat="server" TextMode="Number" OnTextChanged="TextBox14_TextChanged"></asp:TextBox>
                 &nbsp;&nbsp;<br />
+                
                 <br />
                 <asp:Label ID="Label8" runat="server" Text="Op Maximums:"></asp:Label>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                &nbsp;
                     <asp:TextBox ID="TextBox2" runat="server" TextMode="Number" Style="margin-left: 38px;"></asp:TextBox>
                 &nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -79,17 +78,15 @@
                     <asp:TextBox ID="TextBox5" runat="server" TextMode="Number"></asp:TextBox>
                 &nbsp;&nbsp;<br />
                 <br />
-                <asp:Label ID="Label12" runat="server" Text="Nursing: "></asp:Label>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox6" runat="server" TextMode="Number" style="margin-left: 149px;
-"></asp:TextBox>
+                <asp:Label ID="Label12" runat="server" Text="Nursing:"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="TextBox6" runat="server" TextMode="Number" style=""></asp:TextBox>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label13" runat="server" Text="ICU Maximums: "></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="TextBox7" runat="server" TextMode="Number"></asp:TextBox>
                 &nbsp;&nbsp;<br />
                 <br />
-                <asp:Label ID="Label14" runat="server" Text="Operating Room Maximums:"></asp:Label>
+                <asp:Label ID="Label14" runat="server" Text="Operating Room Maximums:"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="TextBox8" runat="server" TextMode="Number" style="margin-left: -32px;
 "></asp:TextBox>
@@ -118,10 +115,7 @@
                     <asp:TextBox ID="TextBox13" runat="server" TextMode="Number"></asp:TextBox>
                 &nbsp;&nbsp;<br />
                 <br />
-                <asp:Label ID="Label19" runat="server" Text="Other Maximums: " style="margin-left: -375px;
-"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox14" runat="server" TextMode="Number"></asp:TextBox>
                 &nbsp;&nbsp;
                 <br />
                 &nbsp;&nbsp;<br />

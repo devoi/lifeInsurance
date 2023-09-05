@@ -27,6 +27,10 @@ namespace lifeInsurance
             GridView2.DataSource = ds2.Tables[0];
             GridView3.DataSource = ds3.Tables[0];
             GridView4.DataSource = ds4.Tables[0];
+            GridView1.DataBind();
+            GridView2.DataBind();
+            GridView3.DataBind();
+            GridView4.DataBind();
         }
     }
 }

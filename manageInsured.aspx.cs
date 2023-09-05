@@ -27,5 +27,10 @@ namespace lifeInsurance
         {
             Response.Redirect("insuredRegistration.aspx");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
